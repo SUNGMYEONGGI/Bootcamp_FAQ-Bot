@@ -1,0 +1,1040 @@
+[
+  {
+    "timestamp": "2025-06-08T14:54:20.964259",
+    "level": "INFO",
+    "message": "슬랙 봇을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T14:54:20.965664",
+    "level": "INFO",
+    "message": "토큰 설정 상태 확인",
+    "extra_data": {
+      "SLACK_BOT_TOKEN": true,
+      "SLACK_APP_TOKEN": true
+    }
+  },
+  {
+    "timestamp": "2025-06-08T14:54:20.967434",
+    "level": "INFO",
+    "message": "Socket Mode Handler 생성 완료",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T14:54:20.967799",
+    "level": "INFO",
+    "message": "웹소켓 연결을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T14:54:44.594031",
+    "event_type": "message",
+    "message": "[message] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "message",
+      "ts": "1749362082.941619",
+      "client_msg_id": "3d5d69b3-8742-46bd-bc23-340b1cd9e6c6",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749362082.941619",
+      "channel_type": "channel"
+    },
+    "question_time": null
+  },
+  {
+    "timestamp": "2025-06-08T14:54:44.961313",
+    "event_type": "app_mention",
+    "message": "[app_mention] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "app_mention",
+      "ts": "1749362082.941619",
+      "client_msg_id": "3d5d69b3-8742-46bd-bc23-340b1cd9e6c6",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749362082.941619"
+    },
+    "question_time": "2025-06-08T14:54:44.961313"
+  },
+  {
+    "timestamp": "2025-06-08T14:54:48.375090",
+    "action_type": "course_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정",
+    "message": "[사용자 상호작용] course_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749362085.466749",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9028917740961.8605664300928.72e05bdef75119440180acfb7935323a",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749362085.466749",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "과정을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "q+NFc",
+            "text": {
+              "type": "mrkdwn",
+              "text": "안녕하세요! :robot_face: 커널아카데미 부트캠프 FAQ 봇입니다.\n현재 진행중인 과정명을 선택해주세요.",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2udcQ"
+          },
+          {
+            "type": "actions",
+            "block_id": "xTkp8",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "select_ai_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":brain: AI 과정",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              },
+              {
+                "type": "button",
+                "action_id": "select_bda_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":bar_chart: BDA 과정",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9028917713361/TGD6z96890LvqbXm2M1VXuR2",
+      "actions": [
+        {
+          "action_id": "select_ai_course",
+          "block_id": "xTkp8",
+          "text": {
+            "type": "plain_text",
+            "text": ":brain: AI 과정",
+            "emoji": true
+          },
+          "value": "AI 과정",
+          "type": "button",
+          "action_ts": "1749362088.298531"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T14:55:21.870896",
+    "action_type": "question_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정|9",
+    "message": "[사용자 상호작용] question_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정|9",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749362088.887369",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9001202687479.8605664300928.20f74b3d3de177c5ccde49affa51fce6",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749362088.887369",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "질문을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "N0bNB",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*AI 과정*에 대한 FAQ입니다.\n\n*궁금한 질문을 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2eOVu"
+          },
+          {
+            "type": "actions",
+            "block_id": "7sRXm",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_0",
+                "text": {
+                  "type": "plain_text",
+                  "text": "출석 체크는 어떻게 진행되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|0"
+              },
+              {
+                "type": "button",
+                "action_id": "question_1",
+                "text": {
+                  "type": "plain_text",
+                  "text": "지각/조퇴/결석 기준이 궁금합니다.",
+                  "emoji": true
+                },
+                "value": "AI 과정|1"
+              },
+              {
+                "type": "button",
+                "action_id": "question_2",
+                "text": {
+                  "type": "plain_text",
+                  "text": "어제 외출 복귀 후 QR 코드를 찍지 않았더니 결석 처리되었습니다. 정정이 가능한가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|2"
+              },
+              {
+                "type": "button",
+                "action_id": "question_3",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 진행되는 날은 어떻게 확인하나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|3"
+              },
+              {
+                "type": "button",
+                "action_id": "question_4",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 없는 날은 출석 체크가 어떻게 되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|4"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "MaDvA",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_5",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 있는 날은 출석 체크가 어떻게 되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|5"
+              },
+              {
+                "type": "button",
+                "action_id": "question_6",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 없는 날이라 생각해서 찍지 않았는데 결석으로 표시됩니다. 맞는 건가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|6"
+              },
+              {
+                "type": "button",
+                "action_id": "question_7",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 없는 날에도 HRD 앱에서 출석하면 문제가 될까요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|7"
+              },
+              {
+                "type": "button",
+                "action_id": "question_8",
+                "text": {
+                  "type": "plain_text",
+                  "text": "조퇴 시 QR은 찍지 않아도 되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|8"
+              },
+              {
+                "type": "button",
+                "action_id": "question_9",
+                "text": {
+                  "type": "plain_text",
+                  "text": "HRD 퇴실은 언제부터 가능한가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|9"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "Aa+A3",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_10",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 체크를 하지 않아도 출석부 제출에 문제가 없나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|10"
+              },
+              {
+                "type": "button",
+                "action_id": "question_11",
+                "text": {
+                  "type": "plain_text",
+                  "text": "패스트캠퍼스에서 출석부 발급받을 수 있나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|11"
+              },
+              {
+                "type": "button",
+                "action_id": "question_12",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석 체크가 없는 날에도 HRD 앱에 QR 화면이 나옵니다. 찍어야 하나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|12"
+              },
+              {
+                "type": "button",
+                "action_id": "question_13",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석 없는 날에도 QR로 입실 처리를 했습니다. 문제 없나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|13"
+              },
+              {
+                "type": "button",
+                "action_id": "question_14",
+                "text": {
+                  "type": "plain_text",
+                  "text": "고용24 출결관리에서 결석으로 보이는데, QR 없는 날도 결석으로 뜨나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|14"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9001202665767/pDelK3iZlIECKZcLJWHJm1lM",
+      "actions": [
+        {
+          "action_id": "question_9",
+          "block_id": "MaDvA",
+          "text": {
+            "type": "plain_text",
+            "text": "HRD 퇴실은 언제부터 가능한가요?",
+            "emoji": true
+          },
+          "value": "AI 과정|9",
+          "type": "button",
+          "action_ts": "1749362121.717620"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T14:58:01.300444",
+    "action_type": "question_selection",
+    "user_id": "U08H5JSN4HG",
+    "selected_value": "AI 과정|12",
+    "message": "[사용자 상호작용] question_selection - 사용자: U08H5JSN4HG, 선택값: AI 과정|12",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JSN4HG",
+        "username": "gijun.park",
+        "name": "gijun.park",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749362088.887369",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9009832905894.8605664300928.6744ce363f8e4a54ef62cf59a859706c",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749362088.887369",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "질문을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "N0bNB",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*AI 과정*에 대한 FAQ입니다.\n\n*궁금한 질문을 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2eOVu"
+          },
+          {
+            "type": "actions",
+            "block_id": "7sRXm",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_0",
+                "text": {
+                  "type": "plain_text",
+                  "text": "출석 체크는 어떻게 진행되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|0"
+              },
+              {
+                "type": "button",
+                "action_id": "question_1",
+                "text": {
+                  "type": "plain_text",
+                  "text": "지각/조퇴/결석 기준이 궁금합니다.",
+                  "emoji": true
+                },
+                "value": "AI 과정|1"
+              },
+              {
+                "type": "button",
+                "action_id": "question_2",
+                "text": {
+                  "type": "plain_text",
+                  "text": "어제 외출 복귀 후 QR 코드를 찍지 않았더니 결석 처리되었습니다. 정정이 가능한가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|2"
+              },
+              {
+                "type": "button",
+                "action_id": "question_3",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 진행되는 날은 어떻게 확인하나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|3"
+              },
+              {
+                "type": "button",
+                "action_id": "question_4",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 없는 날은 출석 체크가 어떻게 되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|4"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "MaDvA",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_5",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 있는 날은 출석 체크가 어떻게 되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|5"
+              },
+              {
+                "type": "button",
+                "action_id": "question_6",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 없는 날이라 생각해서 찍지 않았는데 결석으로 표시됩니다. 맞는 건가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|6"
+              },
+              {
+                "type": "button",
+                "action_id": "question_7",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 없는 날에도 HRD 앱에서 출석하면 문제가 될까요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|7"
+              },
+              {
+                "type": "button",
+                "action_id": "question_8",
+                "text": {
+                  "type": "plain_text",
+                  "text": "조퇴 시 QR은 찍지 않아도 되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|8"
+              },
+              {
+                "type": "button",
+                "action_id": "question_9",
+                "text": {
+                  "type": "plain_text",
+                  "text": "HRD 퇴실은 언제부터 가능한가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|9"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "Aa+A3",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_10",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 체크를 하지 않아도 출석부 제출에 문제가 없나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|10"
+              },
+              {
+                "type": "button",
+                "action_id": "question_11",
+                "text": {
+                  "type": "plain_text",
+                  "text": "패스트캠퍼스에서 출석부 발급받을 수 있나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|11"
+              },
+              {
+                "type": "button",
+                "action_id": "question_12",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석 체크가 없는 날에도 HRD 앱에 QR 화면이 나옵니다. 찍어야 하나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|12"
+              },
+              {
+                "type": "button",
+                "action_id": "question_13",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석 없는 날에도 QR로 입실 처리를 했습니다. 문제 없나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|13"
+              },
+              {
+                "type": "button",
+                "action_id": "question_14",
+                "text": {
+                  "type": "plain_text",
+                  "text": "고용24 출결관리에서 결석으로 보이는데, QR 없는 날도 결석으로 뜨나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|14"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9009832884998/d8VoyohE6YCOBSrbcyLlM5Ay",
+      "actions": [
+        {
+          "block_id": "Aa+A3",
+          "action_id": "question_12",
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "QR 출석 체크가 없는 날에도 HRD 앱에 QR 화면이 나옵니다. 찍어야 하나요?",
+            "emoji": true
+          },
+          "value": "AI 과정|12",
+          "action_ts": "1749362280.857061"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T14:58:10.781038",
+    "action_type": "back_to_questions",
+    "user_id": "U08H5JSN4HG",
+    "selected_value": "AI 과정",
+    "message": "[사용자 상호작용] back_to_questions - 사용자: U08H5JSN4HG, 선택값: AI 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JSN4HG",
+        "username": "gijun.park",
+        "name": "gijun.park",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749362281.836299",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9009832940662.8605664300928.0baa532c7c24124a94d7d84fe6a7d878",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749362281.836299",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "FAQ 답변입니다.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "9ERRo",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*Q: QR 출석 체크가 없는 날에도 HRD 앱에 QR 화면이 나옵니다. 찍어야 하나요?*\n:open_file_folder: 카테고리: 출결 관련\n:mortar_board: 과정: AI 과정",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "hVUYN"
+          },
+          {
+            "type": "section",
+            "block_id": "qO26R",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*A:*\n*QR 없는 날 QR 화면 진입 시 대처*\n\n:iphone: QR 출석이 없는 날은 QR 촬영 필요 없습니다.\n:pushpin: 커리큘럼 시트의 QR 여부를 사전에 확인해 주세요.\n",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "RIPhj"
+          },
+          {
+            "type": "actions",
+            "block_id": "kXden",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "back_to_questions_AI_과정",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":arrows_counterclockwise: 다른 질문 보기",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9009832940518/komjC4v3em5J5XyKCmPqdvnv",
+      "actions": [
+        {
+          "block_id": "kXden",
+          "action_id": "back_to_questions_AI_과정",
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": ":arrows_counterclockwise: 다른 질문 보기",
+            "emoji": true
+          },
+          "value": "AI 과정",
+          "action_ts": "1749362290.625992"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T14:58:14.346871",
+    "action_type": "question_selection",
+    "user_id": "U08H5JSN4HG",
+    "selected_value": "AI 과정|11",
+    "message": "[사용자 상호작용] question_selection - 사용자: U08H5JSN4HG, 선택값: AI 과정|11",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JSN4HG",
+        "username": "gijun.park",
+        "name": "gijun.park",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749362291.295899",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9009615417619.8605664300928.e6af97fc90ec0de361eee8d62d7d3abb",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749362291.295899",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "질문을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "N0bNB",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*AI 과정*에 대한 FAQ입니다.\n\n*궁금한 질문을 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2eOVu"
+          },
+          {
+            "type": "actions",
+            "block_id": "7sRXm",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_0",
+                "text": {
+                  "type": "plain_text",
+                  "text": "출석 체크는 어떻게 진행되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|0"
+              },
+              {
+                "type": "button",
+                "action_id": "question_1",
+                "text": {
+                  "type": "plain_text",
+                  "text": "지각/조퇴/결석 기준이 궁금합니다.",
+                  "emoji": true
+                },
+                "value": "AI 과정|1"
+              },
+              {
+                "type": "button",
+                "action_id": "question_2",
+                "text": {
+                  "type": "plain_text",
+                  "text": "어제 외출 복귀 후 QR 코드를 찍지 않았더니 결석 처리되었습니다. 정정이 가능한가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|2"
+              },
+              {
+                "type": "button",
+                "action_id": "question_3",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 진행되는 날은 어떻게 확인하나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|3"
+              },
+              {
+                "type": "button",
+                "action_id": "question_4",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 없는 날은 출석 체크가 어떻게 되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|4"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "MaDvA",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_5",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 있는 날은 출석 체크가 어떻게 되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|5"
+              },
+              {
+                "type": "button",
+                "action_id": "question_6",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 없는 날이라 생각해서 찍지 않았는데 결석으로 표시됩니다. 맞는 건가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|6"
+              },
+              {
+                "type": "button",
+                "action_id": "question_7",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석이 없는 날에도 HRD 앱에서 출석하면 문제가 될까요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|7"
+              },
+              {
+                "type": "button",
+                "action_id": "question_8",
+                "text": {
+                  "type": "plain_text",
+                  "text": "조퇴 시 QR은 찍지 않아도 되나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|8"
+              },
+              {
+                "type": "button",
+                "action_id": "question_9",
+                "text": {
+                  "type": "plain_text",
+                  "text": "HRD 퇴실은 언제부터 가능한가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|9"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "Aa+A3",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_10",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 체크를 하지 않아도 출석부 제출에 문제가 없나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|10"
+              },
+              {
+                "type": "button",
+                "action_id": "question_11",
+                "text": {
+                  "type": "plain_text",
+                  "text": "패스트캠퍼스에서 출석부 발급받을 수 있나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|11"
+              },
+              {
+                "type": "button",
+                "action_id": "question_12",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석 체크가 없는 날에도 HRD 앱에 QR 화면이 나옵니다. 찍어야 하나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|12"
+              },
+              {
+                "type": "button",
+                "action_id": "question_13",
+                "text": {
+                  "type": "plain_text",
+                  "text": "QR 출석 없는 날에도 QR로 입실 처리를 했습니다. 문제 없나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|13"
+              },
+              {
+                "type": "button",
+                "action_id": "question_14",
+                "text": {
+                  "type": "plain_text",
+                  "text": "고용24 출결관리에서 결석으로 보이는데, QR 없는 날도 결석으로 뜨나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|14"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9009615391715/1hvnTk0Nas7AjeSKLYoTDW3I",
+      "actions": [
+        {
+          "block_id": "Aa+A3",
+          "action_id": "question_11",
+          "type": "button",
+          "text": {
+            "type": "plain_text",
+            "text": "패스트캠퍼스에서 출석부 발급받을 수 있나요?",
+            "emoji": true
+          },
+          "value": "AI 과정|11",
+          "action_ts": "1749362293.933341"
+        }
+      ]
+    }
+  }
+]
