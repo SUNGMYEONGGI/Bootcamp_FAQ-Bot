@@ -1,0 +1,2 @@
+SLACK_APP_TOKEN,SLACK_BOT_TOKEN,level,message,timestamp
+True,True,INFO,토큰 설정 상태 확인,2025-06-08T15:22:02.965175

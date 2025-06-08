@@ -1,0 +1,29 @@
+[
+  {
+    "timestamp": "2025-06-08T15:22:02.964280",
+    "level": "INFO",
+    "message": "슬랙 봇을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T15:22:02.965175",
+    "level": "INFO",
+    "message": "토큰 설정 상태 확인",
+    "extra_data": {
+      "SLACK_BOT_TOKEN": true,
+      "SLACK_APP_TOKEN": true
+    }
+  },
+  {
+    "timestamp": "2025-06-08T15:22:02.966458",
+    "level": "INFO",
+    "message": "Socket Mode Handler 생성 완료",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T15:22:02.966953",
+    "level": "INFO",
+    "message": "웹소켓 연결을 시작합니다...",
+    "extra_data": {}
+  }
+]
