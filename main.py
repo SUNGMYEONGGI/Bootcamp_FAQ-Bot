@@ -12,10 +12,33 @@ load_dotenv()
 # Slack 앱 초기화
 app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
 
-# FAQ 데이터 로드
+# FAQ 데이터 로드 (3개 파일 통합)
 def load_faq_data():
-    with open('data/attendance-faq.json', 'r', encoding='utf-8') as f:
-        return json.load(f)
+    """출석, 실시간 강의, 온라인 강의 FAQ 데이터를 모두 로드하여 통합"""
+    all_faq_data = []
+    
+    # 파일 목록과 해당 설명
+    faq_files = [
+        ('data/attendance-faq.json', '출석 관련'),
+        ('data/live-lecture-faq.json', '실시간 강의 관련'),
+        ('data/online-lecture-faq.json', '온라인 강의 관련')
+    ]
+    
+    for file_path, description in faq_files:
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                file_data = json.load(f)
+                all_faq_data.extend(file_data)
+                log_info(f"FAQ 데이터 로드 성공: {file_path} ({len(file_data)}개 항목)")
+        except FileNotFoundError:
+            log_error(f"FAQ 파일을 찾을 수 없습니다: {file_path}")
+        except json.JSONDecodeError:
+            log_error(f"FAQ 파일 JSON 파싱 오류: {file_path}")
+        except Exception as e:
+            log_error(f"FAQ 파일 로드 중 오류: {file_path}, 오류: {str(e)}")
+    
+    log_info(f"전체 FAQ 데이터 로드 완료: 총 {len(all_faq_data)}개 항목")
+    return all_faq_data
 
 def format_answer(answer_data):
     """답변을 슬랙 메시지 형식으로 포맷팅"""
