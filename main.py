@@ -21,7 +21,8 @@ def load_faq_data():
     faq_files = [
         ('data/attendance-faq.json', '출석 관련'),
         ('data/live-lecture-faq.json', '실시간 강의 관련'),
-        ('data/online-lecture-faq.json', '온라인 강의 관련')
+        ('data/online-lecture-faq.json', '온라인 강의 관련'),
+        ('data/cource-etc-faq.json', '과정 외 관련')
     ]
     
     for file_path, description in faq_files:
@@ -282,7 +283,7 @@ def handle_question_selection(ack, body, say):
                 "type": "section",
                 "text": {
                     "type": "mrkdwn",
-                    "text": f"*A:*\n{format_answer(selected_faq['answer'])}"
+                    "text": f"*A:* {format_answer(selected_faq['answer'])}"
                 }
             },
             {

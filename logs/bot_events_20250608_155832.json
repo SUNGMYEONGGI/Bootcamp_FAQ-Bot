@@ -1,0 +1,199 @@
+[
+  {
+    "timestamp": "2025-06-08T15:58:32.969788",
+    "level": "INFO",
+    "message": "슬랙 봇을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T15:58:32.970462",
+    "level": "INFO",
+    "message": "토큰 설정 상태 확인",
+    "extra_data": {
+      "SLACK_BOT_TOKEN": true,
+      "SLACK_APP_TOKEN": true
+    }
+  },
+  {
+    "timestamp": "2025-06-08T15:58:32.971044",
+    "level": "INFO",
+    "message": "Socket Mode Handler 생성 완료",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T15:58:32.971304",
+    "level": "INFO",
+    "message": "웹소켓 연결을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T15:58:43.667571",
+    "event_type": "message",
+    "message": "[message] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "message",
+      "ts": "1749365922.367499",
+      "client_msg_id": "5d9cd85a-d939-4d49-83ca-c8d501e06c7b",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749365922.367499",
+      "channel_type": "channel"
+    },
+    "question_time": null
+  },
+  {
+    "timestamp": "2025-06-08T15:58:44.136114",
+    "event_type": "app_mention",
+    "message": "[app_mention] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "app_mention",
+      "ts": "1749365922.367499",
+      "client_msg_id": "5d9cd85a-d939-4d49-83ca-c8d501e06c7b",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749365922.367499"
+    },
+    "question_time": "2025-06-08T15:58:44.136114"
+  },
+  {
+    "timestamp": "2025-06-08T15:58:46.889239",
+    "action_type": "course_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정",
+    "message": "[사용자 상호작용] course_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749365924.735799",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9009903087174.8605664300928.acfdcc00e70ccef493b3c3511a58e02b",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749365924.735799",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "과정을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "q+NFc",
+            "text": {
+              "type": "mrkdwn",
+              "text": "안녕하세요! :robot_face: 커널아카데미 부트캠프 FAQ 봇입니다.\n현재 진행중인 과정명을 선택해주세요.",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2udcQ"
+          },
+          {
+            "type": "actions",
+            "block_id": "xTkp8",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "select_ai_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":brain: AI 과정",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              },
+              {
+                "type": "button",
+                "action_id": "select_bda_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":bar_chart: BDA 과정",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9009903086694/2IGZBQJe5RMfDfq37bNLmbX7",
+      "actions": [
+        {
+          "action_id": "select_ai_course",
+          "block_id": "xTkp8",
+          "text": {
+            "type": "plain_text",
+            "text": ":brain: AI 과정",
+            "emoji": true
+          },
+          "value": "AI 과정",
+          "type": "button",
+          "action_ts": "1749365926.846835"
+        }
+      ]
+    }
+  }
+]

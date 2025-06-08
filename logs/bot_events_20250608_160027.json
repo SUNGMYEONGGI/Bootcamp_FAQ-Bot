@@ -1,0 +1,384 @@
+[
+  {
+    "timestamp": "2025-06-08T16:00:28.058970",
+    "level": "INFO",
+    "message": "슬랙 봇을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:00:28.059459",
+    "level": "INFO",
+    "message": "토큰 설정 상태 확인",
+    "extra_data": {
+      "SLACK_BOT_TOKEN": true,
+      "SLACK_APP_TOKEN": true
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:00:28.060256",
+    "level": "INFO",
+    "message": "Socket Mode Handler 생성 완료",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:00:28.060501",
+    "level": "INFO",
+    "message": "웹소켓 연결을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:00:45.683639",
+    "event_type": "message",
+    "message": "[message] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "message",
+      "ts": "1749366044.537989",
+      "client_msg_id": "01516a0c-b1d5-459e-9b94-3eac0939a900",
+      "text": "------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "76L9R",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749366044.537989",
+      "channel_type": "channel"
+    },
+    "question_time": null
+  },
+  {
+    "timestamp": "2025-06-08T16:00:50.285070",
+    "event_type": "message",
+    "message": "[message] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "message",
+      "ts": "1749366049.037389",
+      "client_msg_id": "d47218f5-1b39-4ded-a61d-69b1a26feb24",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749366049.037389",
+      "channel_type": "channel"
+    },
+    "question_time": null
+  },
+  {
+    "timestamp": "2025-06-08T16:00:50.399272",
+    "event_type": "app_mention",
+    "message": "[app_mention] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "app_mention",
+      "ts": "1749366049.037389",
+      "client_msg_id": "d47218f5-1b39-4ded-a61d-69b1a26feb24",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749366049.037389"
+    },
+    "question_time": "2025-06-08T16:00:50.399272"
+  },
+  {
+    "timestamp": "2025-06-08T16:00:53.550982",
+    "action_type": "course_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정",
+    "message": "[사용자 상호작용] course_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749366050.833249",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9017852779522.8605664300928.e9140d071d1a32618a24738d20b7f0e6",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749366050.833249",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "과정을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "q+NFc",
+            "text": {
+              "type": "mrkdwn",
+              "text": "안녕하세요! :robot_face: 커널아카데미 부트캠프 FAQ 봇입니다.\n현재 진행중인 과정명을 선택해주세요.",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2udcQ"
+          },
+          {
+            "type": "actions",
+            "block_id": "xTkp8",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "select_ai_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":brain: AI 과정",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              },
+              {
+                "type": "button",
+                "action_id": "select_bda_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":bar_chart: BDA 과정",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9017852778994/tS1ZGfWwexO43slNszGXBMwB",
+      "actions": [
+        {
+          "action_id": "select_ai_course",
+          "block_id": "xTkp8",
+          "text": {
+            "type": "plain_text",
+            "text": ":brain: AI 과정",
+            "emoji": true
+          },
+          "value": "AI 과정",
+          "type": "button",
+          "action_ts": "1749366053.400719"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:00:53.555680",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/attendance-faq.json (58개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:00:53.557483",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/live-lecture-faq.json (40개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:00:53.559192",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/online-lecture-faq.json (12개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:00:53.560614",
+    "level": "INFO",
+    "message": "전체 FAQ 데이터 로드 완료: 총 110개 항목",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:03.280811",
+    "action_type": "course_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "BDA 과정",
+    "message": "[사용자 상호작용] course_selection - 사용자: U08H5JRTP6E, 선택값: BDA 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749366050.833249",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9001275879191.8605664300928.6f20a65ef816626243f7db8ad2fad87f",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749366050.833249",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "과정을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "q+NFc",
+            "text": {
+              "type": "mrkdwn",
+              "text": "안녕하세요! :robot_face: 커널아카데미 부트캠프 FAQ 봇입니다.\n현재 진행중인 과정명을 선택해주세요.",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2udcQ"
+          },
+          {
+            "type": "actions",
+            "block_id": "xTkp8",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "select_ai_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":brain: AI 과정",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              },
+              {
+                "type": "button",
+                "action_id": "select_bda_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":bar_chart: BDA 과정",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9001275878727/XhEiW8YxG4PqdUKc6ifVAOXA",
+      "actions": [
+        {
+          "action_id": "select_bda_course",
+          "block_id": "xTkp8",
+          "text": {
+            "type": "plain_text",
+            "text": ":bar_chart: BDA 과정",
+            "emoji": true
+          },
+          "value": "BDA 과정",
+          "type": "button",
+          "action_ts": "1749366062.982150"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:01:03.286128",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/attendance-faq.json (58개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:03.288900",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/live-lecture-faq.json (40개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:03.291143",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/online-lecture-faq.json (12개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:03.292615",
+    "level": "INFO",
+    "message": "전체 FAQ 데이터 로드 완료: 총 110개 항목",
+    "extra_data": {}
+  }
+]

@@ -25,5 +25,736 @@
     "level": "INFO",
     "message": "웹소켓 연결을 시작합니다...",
     "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T15:22:15.634537",
+    "event_type": "message",
+    "message": "[message] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "message",
+      "ts": "1749363733.138189",
+      "client_msg_id": "09bda1e3-1cfc-4f7f-9876-19889ee6c223",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749363733.138189",
+      "channel_type": "channel"
+    },
+    "question_time": null
+  },
+  {
+    "timestamp": "2025-06-08T15:22:15.636605",
+    "event_type": "app_mention",
+    "message": "[app_mention] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "app_mention",
+      "ts": "1749363733.138189",
+      "client_msg_id": "09bda1e3-1cfc-4f7f-9876-19889ee6c223",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749363733.138189"
+    },
+    "question_time": "2025-06-08T15:22:15.636605"
+  },
+  {
+    "timestamp": "2025-06-08T15:22:22.719486",
+    "action_type": "course_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "BDA 과정",
+    "message": "[사용자 상호작용] course_selection - 사용자: U08H5JRTP6E, 선택값: BDA 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749363736.200549",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9001233902983.8605664300928.df9984183cd1d86ae2f8a1f270a9d77c",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749363736.200549",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "과정을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "q+NFc",
+            "text": {
+              "type": "mrkdwn",
+              "text": "안녕하세요! :robot_face: 커널아카데미 부트캠프 FAQ 봇입니다.\n현재 진행중인 과정명을 선택해주세요.",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2udcQ"
+          },
+          {
+            "type": "actions",
+            "block_id": "xTkp8",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "select_ai_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":brain: AI 과정",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              },
+              {
+                "type": "button",
+                "action_id": "select_bda_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":bar_chart: BDA 과정",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9001233902967/wtr5Y9n0QsbOoWCXaERHq6kD",
+      "actions": [
+        {
+          "action_id": "select_bda_course",
+          "block_id": "xTkp8",
+          "text": {
+            "type": "plain_text",
+            "text": ":bar_chart: BDA 과정",
+            "emoji": true
+          },
+          "value": "BDA 과정",
+          "type": "button",
+          "action_ts": "1749363742.717775"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T15:22:31.810704",
+    "action_type": "course_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정",
+    "message": "[사용자 상호작용] course_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749363736.200549",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9017801171124.8605664300928.4e508a943754418010e2f4ffb974e99f",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749363736.200549",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "과정을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "q+NFc",
+            "text": {
+              "type": "mrkdwn",
+              "text": "안녕하세요! :robot_face: 커널아카데미 부트캠프 FAQ 봇입니다.\n현재 진행중인 과정명을 선택해주세요.",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2udcQ"
+          },
+          {
+            "type": "actions",
+            "block_id": "xTkp8",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "select_ai_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":brain: AI 과정",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              },
+              {
+                "type": "button",
+                "action_id": "select_bda_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":bar_chart: BDA 과정",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9017801164948/DT5QsZv8iI2MYyaoiN4Afv31",
+      "actions": [
+        {
+          "action_id": "select_ai_course",
+          "block_id": "xTkp8",
+          "text": {
+            "type": "plain_text",
+            "text": ":brain: AI 과정",
+            "emoji": true
+          },
+          "value": "AI 과정",
+          "type": "button",
+          "action_ts": "1749363751.722902"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T15:22:36.673405",
+    "action_type": "category_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "BDA 과정|출결 관련(실시간 강의)",
+    "message": "[사용자 상호작용] category_selection - 사용자: U08H5JRTP6E, 선택값: BDA 과정|출결 관련(실시간 강의)",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749363743.351809",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9009646967107.8605664300928.b193e0e6e488cbcac24ad5c14ad8c59a",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749363743.351809",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "카테고리를 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "1FkA/",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*BDA 과정*에 대한 FAQ입니다.\n\n*카테고리를 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "/obFV"
+          },
+          {
+            "type": "actions",
+            "block_id": "nQ3Eq",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "category_출결_관련_실시간_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":school: 출결 관련(실시간 강의)",
+                  "emoji": true
+                },
+                "value": "BDA 과정|출결 관련(실시간 강의)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출결_관련",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":clipboard: 출결 관련",
+                  "emoji": true
+                },
+                "value": "BDA 과정|출결 관련"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출결관련_실시간_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":school: 출결관련(실시간 강의)",
+                  "emoji": true
+                },
+                "value": "BDA 과정|출결관련(실시간 강의)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출결_관련_온라인_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":computer: 출결 관련(온라인 강의)",
+                  "emoji": true
+                },
+                "value": "BDA 과정|출결 관련(온라인 강의)"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9009646948611/HTdZn1uXRgbWhfB6YQYkfNdV",
+      "actions": [
+        {
+          "action_id": "category_출결_관련_실시간_강의_",
+          "block_id": "nQ3Eq",
+          "text": {
+            "type": "plain_text",
+            "text": ":school: 출결 관련(실시간 강의)",
+            "emoji": true
+          },
+          "value": "BDA 과정|출결 관련(실시간 강의)",
+          "type": "button",
+          "action_ts": "1749363756.674629"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T15:22:41.277131",
+    "action_type": "category_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "BDA 과정|출결관련(실시간 강의)",
+    "message": "[사용자 상호작용] category_selection - 사용자: U08H5JRTP6E, 선택값: BDA 과정|출결관련(실시간 강의)",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749363743.351809",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9001234090327.8605664300928.4c8c3b44ffd16e6739d41e106a939bd2",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749363743.351809",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "카테고리를 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "1FkA/",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*BDA 과정*에 대한 FAQ입니다.\n\n*카테고리를 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "/obFV"
+          },
+          {
+            "type": "actions",
+            "block_id": "nQ3Eq",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "category_출결_관련_실시간_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":school: 출결 관련(실시간 강의)",
+                  "emoji": true
+                },
+                "value": "BDA 과정|출결 관련(실시간 강의)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출결_관련",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":clipboard: 출결 관련",
+                  "emoji": true
+                },
+                "value": "BDA 과정|출결 관련"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출결관련_실시간_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":school: 출결관련(실시간 강의)",
+                  "emoji": true
+                },
+                "value": "BDA 과정|출결관련(실시간 강의)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출결_관련_온라인_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":computer: 출결 관련(온라인 강의)",
+                  "emoji": true
+                },
+                "value": "BDA 과정|출결 관련(온라인 강의)"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9001234080743/YFgI6gWfMIBqa0eX4i0qcitD",
+      "actions": [
+        {
+          "action_id": "category_출결관련_실시간_강의_",
+          "block_id": "nQ3Eq",
+          "text": {
+            "type": "plain_text",
+            "text": ":school: 출결관련(실시간 강의)",
+            "emoji": true
+          },
+          "value": "BDA 과정|출결관련(실시간 강의)",
+          "type": "button",
+          "action_ts": "1749363761.270054"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T15:25:25.112153",
+    "action_type": "back_to_categories",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "BDA 과정",
+    "message": "[사용자 상호작용] back_to_categories - 사용자: U08H5JRTP6E, 선택값: BDA 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749363757.260259",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9040629950768.8605664300928.d98255fdb4567e811ddbdbfbf2c36386",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749363757.260259",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "질문을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "WoYSM",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*BDA 과정* &gt; *출결 관련(실시간 강의)*\n\n*궁금한 질문을 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "Pu1rL"
+          },
+          {
+            "type": "actions",
+            "block_id": "wYc5b",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_0",
+                "text": {
+                  "type": "plain_text",
+                  "text": "고용24 출결관리에서 결석으로 보이는데, QR 없는 날도 결석으로 뜨나요?",
+                  "emoji": true
+                },
+                "value": "BDA 과정|출결 관련(실시간 강의)|0"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "Dv2J3",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "back_to_categories_BDA_과정",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":arrow_backward: 카테고리 선택으로 돌아가기",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9040629950672/1RBjLmJ5wB52dvNYWLLgnDy5",
+      "actions": [
+        {
+          "action_id": "back_to_categories_BDA_과정",
+          "block_id": "Dv2J3",
+          "text": {
+            "type": "plain_text",
+            "text": ":arrow_backward: 카테고리 선택으로 돌아가기",
+            "emoji": true
+          },
+          "value": "BDA 과정",
+          "type": "button",
+          "action_ts": "1749363925.004000"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T15:25:32.690359",
+    "action_type": "course_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정",
+    "message": "[사용자 상호작용] course_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749363736.200549",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9040629939600.8605664300928.65935114604da7279aa29e270b4fd5e6",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749363736.200549",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "과정을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "q+NFc",
+            "text": {
+              "type": "mrkdwn",
+              "text": "안녕하세요! :robot_face: 커널아카데미 부트캠프 FAQ 봇입니다.\n현재 진행중인 과정명을 선택해주세요.",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2udcQ"
+          },
+          {
+            "type": "actions",
+            "block_id": "xTkp8",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "select_ai_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":brain: AI 과정",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              },
+              {
+                "type": "button",
+                "action_id": "select_bda_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":bar_chart: BDA 과정",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9040629915968/GOPyjXOWDS0miCB3SLWr9Bq3",
+      "actions": [
+        {
+          "action_id": "select_ai_course",
+          "block_id": "xTkp8",
+          "text": {
+            "type": "plain_text",
+            "text": ":brain: AI 과정",
+            "emoji": true
+          },
+          "value": "AI 과정",
+          "type": "button",
+          "action_ts": "1749363932.684029"
+        }
+      ]
+    }
   }
 ]

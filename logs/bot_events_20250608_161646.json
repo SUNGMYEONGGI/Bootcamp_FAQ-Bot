@@ -1,0 +1,693 @@
+[
+  {
+    "timestamp": "2025-06-08T16:16:46.783722",
+    "level": "INFO",
+    "message": "슬랙 봇을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:16:46.784247",
+    "level": "INFO",
+    "message": "토큰 설정 상태 확인",
+    "extra_data": {
+      "SLACK_BOT_TOKEN": true,
+      "SLACK_APP_TOKEN": true
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:16:46.785046",
+    "level": "INFO",
+    "message": "Socket Mode Handler 생성 완료",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:16:46.785295",
+    "level": "INFO",
+    "message": "웹소켓 연결을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:04.953490",
+    "event_type": "message",
+    "message": "[message] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "message",
+      "ts": "1749367023.005079",
+      "client_msg_id": "8e998f64-2fb1-48d9-9d9f-fcf1be81798f",
+      "text": "------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "76L9R",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749367023.005079",
+      "channel_type": "channel"
+    },
+    "question_time": null
+  },
+  {
+    "timestamp": "2025-06-08T16:17:05.542606",
+    "event_type": "message",
+    "message": "[message] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "message",
+      "ts": "1749367023.358289",
+      "client_msg_id": "836e4b94-5bce-4e22-87d8-b9ebb1e9810c",
+      "text": "------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "76L9R",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749367023.358289",
+      "channel_type": "channel"
+    },
+    "question_time": null
+  },
+  {
+    "timestamp": "2025-06-08T16:17:05.695884",
+    "event_type": "message",
+    "message": "[message] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "message",
+      "ts": "1749367024.286449",
+      "client_msg_id": "101488ca-3867-4129-b71b-cdb3ad088a80",
+      "text": "------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "76L9R",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "text",
+                  "text": "------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------\n------------------------------------------------------------------------------------------------------------------------------------------------------------"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749367024.286449",
+      "channel_type": "channel"
+    },
+    "question_time": null
+  },
+  {
+    "timestamp": "2025-06-08T16:17:08.621233",
+    "event_type": "app_mention",
+    "message": "[app_mention] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "app_mention",
+      "ts": "1749367026.562249",
+      "client_msg_id": "dfe085d8-dedc-464d-bab9-86bbb389ca33",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749367026.562249"
+    },
+    "question_time": "2025-06-08T16:17:08.621233"
+  },
+  {
+    "timestamp": "2025-06-08T16:17:08.935947",
+    "event_type": "message",
+    "message": "[message] 이벤트 수신",
+    "event_data": {
+      "user": "U08H5JRTP6E",
+      "type": "message",
+      "ts": "1749367026.562249",
+      "client_msg_id": "dfe085d8-dedc-464d-bab9-86bbb389ca33",
+      "text": "<@U0909EGCWSX>",
+      "team": "T08HTKJ8UTA",
+      "blocks": [
+        {
+          "type": "rich_text",
+          "block_id": "qpUlP",
+          "elements": [
+            {
+              "type": "rich_text_section",
+              "elements": [
+                {
+                  "type": "user",
+                  "user_id": "U0909EGCWSX"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "channel": "C090G0J3AGL",
+      "event_ts": "1749367026.562249",
+      "channel_type": "channel"
+    },
+    "question_time": null
+  },
+  {
+    "timestamp": "2025-06-08T16:17:10.895820",
+    "action_type": "course_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정",
+    "message": "[사용자 상호작용] course_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749367029.022679",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9029022187393.8605664300928.fbae2f312ab50b6d183c7db75a2c14ce",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749367029.022679",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "과정을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "q+NFc",
+            "text": {
+              "type": "mrkdwn",
+              "text": "안녕하세요! :robot_face: 커널아카데미 부트캠프 FAQ 봇입니다.\n현재 진행중인 과정명을 선택해주세요.",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2udcQ"
+          },
+          {
+            "type": "actions",
+            "block_id": "xTkp8",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "select_ai_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":brain: AI 과정",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              },
+              {
+                "type": "button",
+                "action_id": "select_bda_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":bar_chart: BDA 과정",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9029022187329/KULzN6k2KObheyFt0XqOvsEd",
+      "actions": [
+        {
+          "action_id": "select_ai_course",
+          "block_id": "xTkp8",
+          "text": {
+            "type": "plain_text",
+            "text": ":brain: AI 과정",
+            "emoji": true
+          },
+          "value": "AI 과정",
+          "type": "button",
+          "action_ts": "1749367030.830999"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:17:10.901808",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/attendance-faq.json (58개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:10.904422",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/live-lecture-faq.json (40개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:10.905955",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/online-lecture-faq.json (12개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:10.907381",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/cource-etc-faq.json (22개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:10.908309",
+    "level": "INFO",
+    "message": "전체 FAQ 데이터 로드 완료: 총 132개 항목",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:35.897837",
+    "action_type": "category_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정|수업 외 과정 관련",
+    "message": "[사용자 상호작용] category_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정|수업 외 과정 관련",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749367031.273189",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9040691388112.8605664300928.200393d259a105f4c19d6286baedb91a",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749367031.273189",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "카테고리를 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "/pvZP",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*AI 과정*에 대한 FAQ입니다.\n\n*카테고리를 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "aIsWg"
+          },
+          {
+            "type": "actions",
+            "block_id": "JwWHw",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "category_출결_관련_온라인_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":computer: 출결 관련(온라인 강의)",
+                  "emoji": true
+                },
+                "value": "AI 과정|출결 관련(온라인 강의)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_실시간_강의_관련",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":school: 실시간 강의 관련",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출결_관련_실시간_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":school: 출결 관련(실시간 강의)",
+                  "emoji": true
+                },
+                "value": "AI 과정|출결 관련(실시간 강의)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출석_관련__출석/지각/조퇴/결석/공가_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":clipboard: 출석 관련 (출석/지각/조퇴/결석/공가)",
+                  "emoji": true
+                },
+                "value": "AI 과정|출석 관련 (출석/지각/조퇴/결석/공가)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_수업_외_과정_관련",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":clipboard: 수업 외 과정 관련",
+                  "emoji": true
+                },
+                "value": "AI 과정|수업 외 과정 관련"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출석_관련__기타_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":clipboard: 출석 관련 (기타)",
+                  "emoji": true
+                },
+                "value": "AI 과정|출석 관련 (기타)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_온라인_강의_관련",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":computer: 온라인 강의 관련",
+                  "emoji": true
+                },
+                "value": "AI 과정|온라인 강의 관련"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9040691372240/S3RDwiysVCUrgRNWvuOyLaTu",
+      "actions": [
+        {
+          "action_id": "category_수업_외_과정_관련",
+          "block_id": "JwWHw",
+          "text": {
+            "type": "plain_text",
+            "text": ":clipboard: 수업 외 과정 관련",
+            "emoji": true
+          },
+          "value": "AI 과정|수업 외 과정 관련",
+          "type": "button",
+          "action_ts": "1749367055.820310"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:17:35.903939",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/attendance-faq.json (58개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:35.906995",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/live-lecture-faq.json (40개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:35.909370",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/online-lecture-faq.json (12개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:35.911489",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/cource-etc-faq.json (22개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:35.913138",
+    "level": "INFO",
+    "message": "전체 FAQ 데이터 로드 완료: 총 132개 항목",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:40.121134",
+    "action_type": "question_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정|수업 외 과정 관련|3",
+    "message": "[사용자 상호작용] question_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정|수업 외 과정 관련|3",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749367056.483669",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9029022235537.8605664300928.c25232d4c92694bfe0d7d6d83dd8a58f",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749367056.483669",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "질문을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "3gCFa",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*AI 과정* &gt; *수업 외 과정 관련*\n\n*궁금한 질문을 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "r6E/4"
+          },
+          {
+            "type": "actions",
+            "block_id": "ejiRx",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_0",
+                "text": {
+                  "type": "plain_text",
+                  "text": "개인 프로젝트로 진행이 가능한가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|수업 외 과정 관련|0"
+              },
+              {
+                "type": "button",
+                "action_id": "question_1",
+                "text": {
+                  "type": "plain_text",
+                  "text": "과정 중간 취업을 할 경우에도 수업을 계속 들을 수 있나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|수업 외 과정 관련|1"
+              },
+              {
+                "type": "button",
+                "action_id": "question_2",
+                "text": {
+                  "type": "plain_text",
+                  "text": "OT 관련 자료들은 어디서 볼 수 있나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|수업 외 과정 관련|2"
+              },
+              {
+                "type": "button",
+                "action_id": "question_3",
+                "text": {
+                  "type": "plain_text",
+                  "text": "주요공지방에 올려주신 구글 드라이브에 접근 권한이 없다고 나옵니다.",
+                  "emoji": true
+                },
+                "value": "AI 과정|수업 외 과정 관련|3"
+              },
+              {
+                "type": "button",
+                "action_id": "question_4",
+                "text": {
+                  "type": "plain_text",
+                  "text": "프로젝트는 제가 원하는 데이터셋을 받아서 프로젝트를 진행할 수 있는 걸까요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|수업 외 과정 관련|4"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "qbwCV",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "back_to_categories_AI_과정",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":arrow_backward: 카테고리 선택으로 돌아가기",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9029022192481/16jDzjpnrdkpSblrH1myA1fW",
+      "actions": [
+        {
+          "action_id": "question_3",
+          "block_id": "ejiRx",
+          "text": {
+            "type": "plain_text",
+            "text": "주요공지방에 올려주신 구글 드라이브에 접근 권한이 없다고 나옵니다.",
+            "emoji": true
+          },
+          "value": "AI 과정|수업 외 과정 관련|3",
+          "type": "button",
+          "action_ts": "1749367059.982853"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:17:40.127104",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/attendance-faq.json (58개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:40.130392",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/live-lecture-faq.json (40개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:40.132909",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/online-lecture-faq.json (12개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:40.134993",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/cource-etc-faq.json (22개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:17:40.136954",
+    "level": "INFO",
+    "message": "전체 FAQ 데이터 로드 완료: 총 132개 항목",
+    "extra_data": {}
+  }
+]

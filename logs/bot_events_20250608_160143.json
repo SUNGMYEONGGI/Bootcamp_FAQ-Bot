@@ -1,0 +1,701 @@
+[
+  {
+    "timestamp": "2025-06-08T16:01:44.521979",
+    "level": "INFO",
+    "message": "슬랙 봇을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:44.522408",
+    "level": "INFO",
+    "message": "토큰 설정 상태 확인",
+    "extra_data": {
+      "SLACK_BOT_TOKEN": true,
+      "SLACK_APP_TOKEN": true
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:01:44.522958",
+    "level": "INFO",
+    "message": "Socket Mode Handler 생성 완료",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:44.523208",
+    "level": "INFO",
+    "message": "웹소켓 연결을 시작합니다...",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:48.565374",
+    "action_type": "course_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정",
+    "message": "[사용자 상호작용] course_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749366050.833249",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9009907409654.8605664300928.ed152a2d5957075137803a0c840f65d6",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749366050.833249",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "과정을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "q+NFc",
+            "text": {
+              "type": "mrkdwn",
+              "text": "안녕하세요! :robot_face: 커널아카데미 부트캠프 FAQ 봇입니다.\n현재 진행중인 과정명을 선택해주세요.",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "2udcQ"
+          },
+          {
+            "type": "actions",
+            "block_id": "xTkp8",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "select_ai_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":brain: AI 과정",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              },
+              {
+                "type": "button",
+                "action_id": "select_bda_course",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":bar_chart: BDA 과정",
+                  "emoji": true
+                },
+                "value": "BDA 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9009907355350/NsxgLCh1HR9wjS1et8YYhEWk",
+      "actions": [
+        {
+          "action_id": "select_ai_course",
+          "block_id": "xTkp8",
+          "text": {
+            "type": "plain_text",
+            "text": ":brain: AI 과정",
+            "emoji": true
+          },
+          "value": "AI 과정",
+          "type": "button",
+          "action_ts": "1749366108.502133"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:01:48.570208",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/attendance-faq.json (58개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:48.571439",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/live-lecture-faq.json (40개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:48.572850",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/online-lecture-faq.json (12개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:48.574060",
+    "level": "INFO",
+    "message": "전체 FAQ 데이터 로드 완료: 총 110개 항목",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:53.339859",
+    "action_type": "category_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정|실시간 강의 관련",
+    "message": "[사용자 상호작용] category_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정|실시간 강의 관련",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749366109.168079",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9009694951571.8605664300928.cfd102a18d79c2a66adb594f3a19977b",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749366109.168079",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "카테고리를 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "AbUdN",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*AI 과정*에 대한 FAQ입니다.\n\n*카테고리를 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "ros8K"
+          },
+          {
+            "type": "actions",
+            "block_id": "UwZ8V",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "category_실시간_강의_관련",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":school: 실시간 강의 관련",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출결_관련_온라인_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":computer: 출결 관련(온라인 강의)",
+                  "emoji": true
+                },
+                "value": "AI 과정|출결 관련(온라인 강의)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_온라인_강의_관련",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":computer: 온라인 강의 관련",
+                  "emoji": true
+                },
+                "value": "AI 과정|온라인 강의 관련"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출석_관련__출석/지각/조퇴/결석/공가_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":clipboard: 출석 관련 (출석/지각/조퇴/결석/공가)",
+                  "emoji": true
+                },
+                "value": "AI 과정|출석 관련 (출석/지각/조퇴/결석/공가)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출석_관련__기타_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":clipboard: 출석 관련 (기타)",
+                  "emoji": true
+                },
+                "value": "AI 과정|출석 관련 (기타)"
+              },
+              {
+                "type": "button",
+                "action_id": "category_출결_관련_실시간_강의_",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":school: 출결 관련(실시간 강의)",
+                  "emoji": true
+                },
+                "value": "AI 과정|출결 관련(실시간 강의)"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9009694951507/QfA9jB2ksQGPQFzHh4WEIu1q",
+      "actions": [
+        {
+          "action_id": "category_실시간_강의_관련",
+          "block_id": "UwZ8V",
+          "text": {
+            "type": "plain_text",
+            "text": ":school: 실시간 강의 관련",
+            "emoji": true
+          },
+          "value": "AI 과정|실시간 강의 관련",
+          "type": "button",
+          "action_ts": "1749366113.348353"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:01:53.345047",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/attendance-faq.json (58개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:53.346900",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/live-lecture-faq.json (40개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:53.349200",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/online-lecture-faq.json (12개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:53.350346",
+    "level": "INFO",
+    "message": "전체 FAQ 데이터 로드 완료: 총 110개 항목",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:56.379315",
+    "action_type": "question_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정|실시간 강의 관련|1",
+    "message": "[사용자 상호작용] question_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정|실시간 강의 관련|1",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749366113.934899",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9001277960183.8605664300928.46e1f0fd0ae8d2fbb46e4bb91b6cfb90",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749366113.934899",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "질문을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "qB8Mk",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*AI 과정* &gt; *실시간 강의 관련*\n\n*궁금한 질문을 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "DZTVr"
+          },
+          {
+            "type": "actions",
+            "block_id": "F+OYt",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_0",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Zoom 강의 시 카메라 필수인가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|0"
+              },
+              {
+                "type": "button",
+                "action_id": "question_1",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Zoom 강의 시 아바타를 켜놓아도 괜찮은가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|1"
+              },
+              {
+                "type": "button",
+                "action_id": "question_2",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Zoom 강의실에는 어떻게 입장해야하나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|2"
+              },
+              {
+                "type": "button",
+                "action_id": "question_3",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Zoom 실시간 강의의 정확한 일정(날짜/시간)을 알 수 있나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|3"
+              },
+              {
+                "type": "button",
+                "action_id": "question_4",
+                "text": {
+                  "type": "plain_text",
+                  "text": "실시간 강의자료는 어디서  받을 수 있을까요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|4"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "jK7yK",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_5",
+                "text": {
+                  "type": "plain_text",
+                  "text": "실시간 강의의 강의 자료는 어디서 확인이 가능한가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|5"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "gp6qw",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "back_to_categories_AI_과정",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":arrow_backward: 카테고리 선택으로 돌아가기",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9001277835751/ARyLYS46RGVu8yciD2ExPS4P",
+      "actions": [
+        {
+          "action_id": "question_1",
+          "block_id": "F+OYt",
+          "text": {
+            "type": "plain_text",
+            "text": "Zoom 강의 시 아바타를 켜놓아도 괜찮은가요?",
+            "emoji": true
+          },
+          "value": "AI 과정|실시간 강의 관련|1",
+          "type": "button",
+          "action_ts": "1749366116.386032"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:01:56.384816",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/attendance-faq.json (58개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:56.387602",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/live-lecture-faq.json (40개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:56.389529",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/online-lecture-faq.json (12개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:01:56.390816",
+    "level": "INFO",
+    "message": "전체 FAQ 데이터 로드 완료: 총 110개 항목",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:03:04.683877",
+    "action_type": "question_selection",
+    "user_id": "U08H5JRTP6E",
+    "selected_value": "AI 과정|실시간 강의 관련|5",
+    "message": "[사용자 상호작용] question_selection - 사용자: U08H5JRTP6E, 선택값: AI 과정|실시간 강의 관련|5",
+    "interaction_data": {
+      "type": "block_actions",
+      "user": {
+        "id": "U08H5JRTP6E",
+        "username": "myeonggi.seong",
+        "name": "myeonggi.seong",
+        "team_id": "T08HTKJ8UTA"
+      },
+      "api_app_id": "A0909DRAH99",
+      "token": "c7bXJS1ITOU5hXCMcMoIz21m",
+      "container": {
+        "type": "message",
+        "message_ts": "1749366113.934899",
+        "channel_id": "C090G0J3AGL",
+        "is_ephemeral": false
+      },
+      "trigger_id": "9009909424966.8605664300928.8b1dd04b2deeb2fba645826ba6392d44",
+      "team": {
+        "id": "T08HTKJ8UTA",
+        "domain": "ai--13"
+      },
+      "enterprise": null,
+      "is_enterprise_install": false,
+      "channel": {
+        "id": "C090G0J3AGL",
+        "name": "faq-bot-test"
+      },
+      "message": {
+        "user": "U0909EGCWSX",
+        "type": "message",
+        "ts": "1749366113.934899",
+        "bot_id": "B0909EGCWRH",
+        "app_id": "A0909DRAH99",
+        "text": "질문을 선택해주세요.",
+        "team": "T08HTKJ8UTA",
+        "blocks": [
+          {
+            "type": "section",
+            "block_id": "qB8Mk",
+            "text": {
+              "type": "mrkdwn",
+              "text": "*AI 과정* &gt; *실시간 강의 관련*\n\n*궁금한 질문을 선택해주세요:*",
+              "verbatim": false
+            }
+          },
+          {
+            "type": "divider",
+            "block_id": "DZTVr"
+          },
+          {
+            "type": "actions",
+            "block_id": "F+OYt",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_0",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Zoom 강의 시 카메라 필수인가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|0"
+              },
+              {
+                "type": "button",
+                "action_id": "question_1",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Zoom 강의 시 아바타를 켜놓아도 괜찮은가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|1"
+              },
+              {
+                "type": "button",
+                "action_id": "question_2",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Zoom 강의실에는 어떻게 입장해야하나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|2"
+              },
+              {
+                "type": "button",
+                "action_id": "question_3",
+                "text": {
+                  "type": "plain_text",
+                  "text": "Zoom 실시간 강의의 정확한 일정(날짜/시간)을 알 수 있나요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|3"
+              },
+              {
+                "type": "button",
+                "action_id": "question_4",
+                "text": {
+                  "type": "plain_text",
+                  "text": "실시간 강의자료는 어디서  받을 수 있을까요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|4"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "jK7yK",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "question_5",
+                "text": {
+                  "type": "plain_text",
+                  "text": "실시간 강의의 강의 자료는 어디서 확인이 가능한가요?",
+                  "emoji": true
+                },
+                "value": "AI 과정|실시간 강의 관련|5"
+              }
+            ]
+          },
+          {
+            "type": "actions",
+            "block_id": "gp6qw",
+            "elements": [
+              {
+                "type": "button",
+                "action_id": "back_to_categories_AI_과정",
+                "text": {
+                  "type": "plain_text",
+                  "text": ":arrow_backward: 카테고리 선택으로 돌아가기",
+                  "emoji": true
+                },
+                "value": "AI 과정"
+              }
+            ]
+          }
+        ]
+      },
+      "state": {
+        "values": {}
+      },
+      "response_url": "https://hooks.slack.com/actions/T08HTKJ8UTA/9009909413926/g7ip4iq2RyMEZgmlbpv8OkX7",
+      "actions": [
+        {
+          "action_id": "question_5",
+          "block_id": "jK7yK",
+          "text": {
+            "type": "plain_text",
+            "text": "실시간 강의의 강의 자료는 어디서 확인이 가능한가요?",
+            "emoji": true
+          },
+          "value": "AI 과정|실시간 강의 관련|5",
+          "type": "button",
+          "action_ts": "1749366184.682196"
+        }
+      ]
+    }
+  },
+  {
+    "timestamp": "2025-06-08T16:03:04.692057",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/attendance-faq.json (58개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:03:04.694625",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/live-lecture-faq.json (40개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:03:04.697630",
+    "level": "INFO",
+    "message": "FAQ 데이터 로드 성공: data/online-lecture-faq.json (12개 항목)",
+    "extra_data": {}
+  },
+  {
+    "timestamp": "2025-06-08T16:03:04.699518",
+    "level": "INFO",
+    "message": "전체 FAQ 데이터 로드 완료: 총 110개 항목",
+    "extra_data": {}
+  }
+]
