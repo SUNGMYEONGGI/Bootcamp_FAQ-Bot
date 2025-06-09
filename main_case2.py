@@ -10,7 +10,7 @@ from log import log_info, log_event, log_user_interaction, log_error
 load_dotenv()
 
 # Slack 앱 초기화
-app = App(token=os.environ.get("SLACK_BOT_TOKEN"))
+app = App(token=os.environ.get("SLACK_BOT_TOKEN1"))
 
 # FAQ 데이터 로드 (3개 파일 통합)
 def load_faq_data():
@@ -472,14 +472,14 @@ if __name__ == "__main__":
     log_info("슬랙 봇을 시작합니다...")
     
     token_status = {
-        "SLACK_BOT_TOKEN": bool(os.environ.get('SLACK_BOT_TOKEN')),
-        "SLACK_APP_TOKEN": bool(os.environ.get('SLACK_APP_TOKEN'))
+        "SLACK_BOT_TOKEN1": bool(os.environ.get('SLACK_BOT_TOKEN1')),
+        "SLACK_APP_TOKEN1": bool(os.environ.get('SLACK_APP_TOKEN1'))
     }
     log_info("토큰 설정 상태 확인", token_status)
     
     # Socket Mode 사용 (개발용)
     try:
-        handler = SocketModeHandler(app, os.environ.get("SLACK_APP_TOKEN"))
+        handler = SocketModeHandler(app, os.environ.get("SLACK_APP_TOKEN1"))
         log_info("Socket Mode Handler 생성 완료")
         log_info("웹소켓 연결을 시작합니다...")
         handler.start()
