@@ -186,23 +186,6 @@ python main_case2.py
 
 ## 🏗 아키텍처
 
-### 시스템 아키텍처
-```mermaid
-graph TB
-    A[Slack User] -->|@봇멘션| B[Slack Bolt App]
-    B -->|Socket Mode| C[Python Bot Server]
-    C -->|파일 읽기| D[JSON FAQ Database]
-    
-    D --> E[attendance-faq.json<br/>출석 관련]
-    D --> F[live-lecture-faq.json<br/>실시간 강의]
-    D --> G[online-lecture-faq.json<br/>온라인 강의]
-    D --> H[course-etc-faq.json<br/>과정 외]
-    
-    C -->|답변 생성| I[Block Kit UI]
-    I -->|메시지 전송| B
-    B -->|답변 표시| A
-```
-
 ### 데이터 플로우
 1. **사용자 입력**: Slack에서 봇 멘션
 2. **이벤트 처리**: Slack Bolt가 이벤트 수신
@@ -309,49 +292,6 @@ Bootcamp_FAQ-Bot/
 - 🔄 **다른 질문 보기**: 같은 카테고리의 다른 질문들 확인
 - 🏠 **처음으로 돌아가기**: 과정 선택 화면으로 복귀
 - ◀️ **뒤로가기**: 이전 단계로 이동
-
----
-
-## 👨‍💻 개발자 정보
-
-### 개발자
-**성명기 (SUNG MYEONGGI)**
-- 📧 Email: [GitHub Profile](https://github.com/SUNGMYEONGGI)
-- 🎓 소속: 커널아카데미 수강생
-- 💼 역할: Full Stack Developer
-
-### 개발 동기
-커널아카데미 부트캠프 과정에서 수강생들이 반복적으로 묻는 질문들을 효율적으로 처리하고, 
-24시간 언제든지 즉시 답변을 받을 수 있는 시스템의 필요성을 느껴 개발하게 되었습니다.
-
-### 기여 방법
-1. 이 저장소를 Fork 합니다
-2. 새로운 브랜치를 생성합니다 (`git checkout -b feature/새기능`)
-3. 변경사항을 커밋합니다 (`git commit -am '새기능 추가'`)
-4. 브랜치에 Push 합니다 (`git push origin feature/새기능`)
-5. Pull Request를 생성합니다
-
----
-
-## 📄 라이센스
-
-이 프로젝트는 MIT 라이센스 하에 배포됩니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.
-
-```
-MIT License
-
-Copyright (c) 2025 SUNG MYEONGGI
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
 
 ---
 
